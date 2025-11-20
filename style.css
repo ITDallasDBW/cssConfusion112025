@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  flex-grow: 1;
+  border: 3px solid brown;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature__wrapper {
+  max-width: 1000px;
+  border: 1px solid rgb(240, 206, 12);
+  margin: 32px;
+  display: flex;
+  padding: 4px;
+  background-color: red;
+}
+.feature__img {
+  width: 40%;
+  display: flex;
+  border: 1px red solid;
+  background-color: green;
+}
+.feature__poster {
+  width: 100%;
+  background-color:orange;
+  border: 1px blueviolet;
+}
+/* Verbiage Column in Feature */
+.feature__right {
+  border: 1px orange solid;
+  background-color:blue;
+  /* width: 60%; */
+  display: flex;
+  font-size: 20px;
+  margin: 16px;
+  font-weight: 500;
+}
+.feature__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+.split {
+  /* border: 1px blue solid; */
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+}
+.splitLeft {
+  margin-right: 32px;
+  background-color: pink;
+}
+.feature__plot {
+  /* border: 1px red solid; */
+background-color: purple;
+  font-style: italic;
+  font-size: 20px;
+}
+.feature__people {
+  background-color: gray;
+  /* border: 1px red solid; */
+}
