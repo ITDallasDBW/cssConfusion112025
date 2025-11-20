@@ -19,7 +19,7 @@
 .feature__img {
   width: 40%;
   display: flex;
-  border: 1px red solid;
+  border: 1px green solid;
   background-color: green;
 }
 .feature__poster {
